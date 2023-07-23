@@ -6,6 +6,7 @@ class HelloWorld{
     
     public void push(int x) {
         queue.add(x);
+        //Transfering fromFront to End
         for(int i = 1; i < queue.size(); i++) {
             queue.add(queue.peek());
             queue.remove();
